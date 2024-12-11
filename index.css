@@ -1,0 +1,166 @@
+*{
+    margin: 8px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.main{
+    background-color: rgb(244, 218, 186);
+    border-radius: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    list-style: none;
+    border: 3px solid grey;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: tomato;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.nav-item{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(71, 75, 75);
+}
+
+.button{
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    color: rgb(71, 75, 75);
+    border-radius: 40px;
+    background-color:  rgb(244, 218, 186);
+    border: 2px solid rgb(64, 75, 42);
+    font-family: 'Times New Roman', Times, serif;
+    width: 90px;
+    height: 30px;
+}
+
+.button:hover{
+    background-color: tomato;
+}
+
+.nav-item:hover{
+    color: aquamarine;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.profile_pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile_name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(237, 150, 43);
+}
+
+.description{
+    font-size: 24px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(70, 81, 77);
+}
+
+hr{
+    border: 1.5px dotted black;
+    border-radius: 40px;
+    background-color: brown;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading{
+    color: rgb(237, 150, 43);
+}
+
+.work-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(237, 150, 43);
+}
+
+.exp ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+table, th, td {
+    border: 1px solid gray;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  height: 70px;
+}
+td {
+    text-align: center;
+}
+
+.education-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ed-head{
+    color: rgb(237, 150, 43);
+}
+
+ .contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.cont-head{
+    color: rgb(237, 150, 43);
+}
+
+.contacts,.contacts ul{
+    display: flex;
+    align-items:center ;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.linkedin{
+    text-decoration: none;
+}
+
+.dropdown{
+    background-color: rgb(244, 218, 186);
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+}
